@@ -27,7 +27,7 @@ def predict(Buying, Maint, Doors, Persons, Lug_boot, Safety):
   return prediction
 
 st.title('car Evalution Classification')
-st.image("""https://images.pexels.com/photos/14823597/pexels-photo-14823597.jpeg%22%22""")
+st.image("""https://www.google.com/imgres?q=Lamborghini.jpg&imgurl=https%3A%2F%2Fimgd.aeplcdn.com%2F1920x1080%2Fec%2F79%2F85%2F9802%2Fimg%2Fol%2FLamborghini-Aventador-Front-view-52648.jpg%3Fv%3D201711021421%26q%3D80%26q%3D80&imgrefurl=https%3A%2F%2Fwww.carwale.com%2Flamborghini-cars%2Faventador%2F&docid=UOa8oQzM8XAQ-M&tbnid=OkgWn2iH4EilGM&vet=12ahUKEwjPgIKC2ciFAxXO8zgGHZtzBQMQM3oECEEQAA..i&w=1920&h=1080&hcb=2&ved=2ahUKEwjPgIKC2ciFAxXO8zgGHZtzBQMQM3oECEEQAA""")
 
 st.header('Enter the Information of the Car:')
 
