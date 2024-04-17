@@ -6,9 +6,9 @@ import joblib
 from skelearn.tree import DecisionTreeClassifier
 # loading up the classification model we created
 
-module =DecisionTreeClassifier(criterion='gini',max_depth=8, min_samples_leaf=5, random_state=0)
+model =DecisionTreeClassifier(criterion='gini',max_depth=8, min_samples_leaf=5, random_state=0)
 
-modulel =joblib.load('finalized_model.joblib')
+model =joblib.load('finalized_model.joblib')
 # caching the model for faster loading
 
 @st.cache
