@@ -18,7 +18,7 @@ model =joblib.load('finalized_model.joblib')
 def predict(Buying, Maint, Doors, Persons, Lug_boot, Safety):
   if Safety == 'med':
     safety == 1
-  elif Safety =='high':
+  elif Safety == 'high':
     safety == 2
   elif Safety == 'low':
     safety = 3
