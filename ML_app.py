@@ -41,7 +41,7 @@ Maint = st.number_input('maint:', min_value=1, max_value=4, value=1)
 
 st.text("2-Doors = 1 3-Doors 2 4-Doors = 3 5more = 4")
 
-Doors st.number_input('doors:', min_value=1, max_value=4, value=1)
+Doors=st.number_input('doors:', min_value=1, max_value=4, value=1)
 
 st.text("2-persons = 1 4-persons = 2 more = 3 ")
 
