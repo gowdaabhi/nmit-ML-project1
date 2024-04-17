@@ -28,7 +28,7 @@ def predict(Buying, Maint, Doors, Persons, Lug_boot, Safety):
   return prediction
 
 st.title('car Evalution Classification')
-st.image("""https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.topgear.com.ph%2Fnews%2Fcar-news%2Ftoyota-fortuner-gr-s-aftermarket-a962-20221017&psig=AOvVaw16qJYCSTB01TMZI7qZASbN&ust=1713420732041000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPj0l-PLyIUDFQAAAAAdAAAAABAT""")
+st.image("""https://images.pexels.com/photos/14823597/pexels-photo-14823597.jpeg%22%22""")
 
 st.header('Enter the Information of the Car:')
 
